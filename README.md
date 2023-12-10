@@ -21,6 +21,9 @@ Run Cleint API as shown below
 
 ab -n 2 -c 1 http://localhost:8080/api/block/2
 
+![image](https://github.com/srss-pocs/springboot-virtual-threads/assets/145287517/4627038f-4098-4e64-8227-21ec7e4c9c2d)
+
+
 # content.json contains the json you want to post
 # -p means to POST it
 # -H adds an Auth header (could be Basic or Token)
