@@ -24,11 +24,9 @@ ab -n 2 -c 1 http://localhost:8080/api/block/2
 ![image](https://github.com/srss-pocs/springboot-virtual-threads/assets/145287517/4627038f-4098-4e64-8227-21ec7e4c9c2d)
 
 
-Without Virtual Thread Property Result
-![image](https://github.com/srss-pocs/springboot-virtual-threads/assets/145287517/eeaae21b-a425-49e3-9782-6ae102a81c03)
-
-
-With Virtual Thread Property Result
+Run the API 
+ab -n 1600 -c 200 http://localhost:8080/api/block/2
+Without Virtual Thread Property Result vs With Virtual Thread Property Result
 
 
  
